@@ -2119,7 +2119,9 @@ a:focus {
     color: #ffffff;
 }
 
-.footer .footer-contact,
+.footer .footer-contact a:hover{
+     color:  #ffffff;
+}
 .footer .footer-link,
 .footer .newsletter {
     position: relative;
@@ -2161,7 +2163,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #fdbe33;
+    color:  #ffffff;
     letter-spacing: 1px;
 }
 
@@ -2191,8 +2193,8 @@ a:focus {
 }
 
 .footer .footer-social a:hover {
-    background: #fdbe33;
-    border-color: #fdbe33;
+    background: #ffffff;
+    border-color: #ffffff;
 }
 
 .footer .footer-social a:hover i {
@@ -2289,4 +2291,9 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+
+   #submit-form{
+         background-color:#030f27; ;
+   }
+    
 }
