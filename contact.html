@@ -177,8 +177,9 @@
                             <div class="contact-form">
                                 
                                 <div id="success"></div>
-                                <form  action=""  name="sentMessage" id="submit-form" method="post" >
+                                <form action="https://api.web3forms.com/submit" method="POST" >
                                     <div class="control-group">
+                                        <input type="hidden" name="access_key" value="ded290a4-c4a7-43fd-8b3c-f8243732f7dd">
                                         <input type="text" class="form-control" name="name" placeholder="Your Name"  data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
                                     </div>
@@ -287,25 +288,7 @@
        
         <script src="js/main.js"></script>
         
-        <script>
-            $("#submit-form").submit((e)=>{
-                e.preventDefault()
-                $.ajax({
-                    url:"https://script.google.com/macros/s/AKfycbwqB5qTv93NTur-9Ilvbr9rTXhug1V9Mmpn5vrrhNNpG68UocF4C2Y5RsFadJT1DI1y/exec",
-                    data:$("#submit-form").serialize(),
-                    method:"post",
-                    success:function (response){
-                        alert("Form submitted successfully")
-                        window.location.reload()
-                        //window.location.href="https://google.com"
-                    },
-                    error:function (err){
-                        alert("Something Error")
-        
-                    }
-                })
-            })
-        </script>
+      
 
     </body>
 </html>
