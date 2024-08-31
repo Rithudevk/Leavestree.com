@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,8 +55,8 @@
 </head>
 <body>
 
-    <!-- Carousel Container 1 -->
-    <div class="carousel-container">
+    Carousel Container 1 -->
+    <!-- <div class="carousel-container">
         <div class="carousel-track" id="track-1">
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+1A" alt="Image 1A"></div>
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+1B" alt="Image 1B"></div>
@@ -65,10 +65,10 @@
             <span class="dot" onclick="currentSlide(0, 'track-1')"></span>
             <span class="dot" onclick="currentSlide(1, 'track-1')"></span>
         </div>
-    </div>
+    </div> -->
 
     <!-- Carousel Container 2 -->
-    <div class="carousel-container">
+    <!-- <div class="carousel-container">
         <div class="carousel-track" id="track-2">
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+2A" alt="Image 2A"></div>
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+2B" alt="Image 2B"></div>
@@ -77,10 +77,10 @@
             <span class="dot" onclick="currentSlide(0, 'track-2')"></span>
             <span class="dot" onclick="currentSlide(1, 'track-2')"></span>
         </div>
-    </div>
+    </div> -->
 
     <!-- Carousel Container 3 -->
-    <div class="carousel-container">
+    <!-- <div class="carousel-container">
         <div class="carousel-track" id="track-3">
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+3A" alt="Image 3A"></div>
             <div class="slide"><img src="https://via.placeholder.com/500x300?text=Image+3B" alt="Image 3B"></div>
@@ -89,10 +89,10 @@
             <span class="dot" onclick="currentSlide(0, 'track-3')"></span>
             <span class="dot" onclick="currentSlide(1, 'track-3')"></span>
         </div>
-    </div>
+    </div> -->
 
-    <script>
-        // Function to slide images for a specific track
+    <!-- <script> -->
+        <!-- // Function to slide images for a specific track
         function autoSlide(trackId, totalSlides) {
             let slideIndex = 0;
             const track = document.getElementById(trackId);
@@ -114,21 +114,223 @@
         }
 
         // Function to manually control the slides
-        function currentSlide(index, trackId) {
-            const track = document.getElementById(trackId);
-            const totalSlides = track.querySelectorAll('.slide').length;
-            const dots = track.nextElementSibling.querySelectorAll('.dot');
+        // function currentSlide(index, trackId) {
+        //     const track = document.getElementById(trackId);
+        //     const totalSlides = track.querySelectorAll('.slide').length;
+        //     const dots = track.nextElementSibling.querySelectorAll('.dot');
 
-            track.style.transform = `translateX(${-index * 100}%)`;
-            dots.forEach(dot => dot.classList.remove('active'));
-            dots[index].classList.add('active');
-        }
+        //     track.style.transform = `translateX(${-index * 100}%)`;
+        //     dots.forEach(dot => dot.classList.remove('active'));
+        //     dots[index].classList.add('active');
+        // }
 
         // Initialize all carousels
-        autoSlide('track-1', 2);
-        autoSlide('track-2', 2);
-        autoSlide('track-3', 2);
-    </script>
+//         autoSlide('track-1', 2);
+//         autoSlide('track-2', 2);
+//         autoSlide('track-3', 2);
+//     </script>
 
-</body>
-</html>
+// </body>
+// </html>  -->
+
+<div class="row portfolio-container">
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac1.jpg" height="260px"  style="object-fit: cover;"  alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Design, Installation & Commissioning for all type of HVAC-R system
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3> HVAC-R system </h3>
+                <a class="btn" href="img/marine/hvac1.jpg"  data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.2s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac2.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Service, Maintenance & Retrofitting for all type of HVACR system
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>HVAC-R system</h3>
+                <a class="btn" href="img/marine/hvac2.jpg" height="460px"  style="object-fit: cover;" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac3.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Renew and repair of Freezer, chiller container cold storage
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>cold storage</h3>
+                <a class="btn" href="img/marine/hvac3.jpg"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow fadeInUp" data-wow-delay="0.4s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac4.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        HVAC solution for kitchen environment
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>kitchen environment</h3>
+                <a class="btn" href="img/marine/hvac4.jpg" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac5.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Design, fabrication & installation for all type of ducting work
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>ducting work</h3>
+                <a class="btn" href="img/marine/hvac5.jpg"   data-lightbox="portfolio">
+                    
+                    
+                    +</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.6s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac7.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        All type of HVACR & Generator Exhaust insulation work  
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>insulation work  </h3>
+                <a class="btn" href="img/marine/hvac7.jpg" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac8.webp" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        HVACR compressor rebuilding and Hermetic winding
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3> HVACR compressor rebuilding and Hermetic winding</h3>
+                <a class="btn" href="img/marine/hvac8.webp"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac11.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Duct cleaning services   
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3> Duct cleaning services </h3>
+                <a class="btn" href="img/marine/hvac11.jpg"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac12.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Testing & Air balancing for duct work system
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>Testing & Air balancing for duct work system</h3>
+                <a class="btn" href="img/marine/hvac12.jpg"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac13.jpg" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Electrical motor winding 
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>Electrical motor winding </h3>
+                <a class="btn" href="img/marine/hvac13.jpg"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac9.png" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Hydraulic tools , Equipment rental Bolting solution, Hydraulic jack & pumps
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>products</h3>
+                <a class="btn" href="img/marine/hvac9.png"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp" data-wow-delay="0.3s">
+        <div class="portfolio-warp">
+            <div class="portfolio-img">
+                <img src="img/marine/hvac14.png" height="260px"  style="object-fit: cover;" alt="Image">
+                <div class="portfolio-overlay">
+                    <p>
+                        Hydrotest pumps, Hydraulic pumps, Power cylinders, Bolting Solutions & service
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-text">
+                <h3>Products and services</h3>
+                <a class="btn" href="img/marine/hvac14.png"  height="260px" data-lightbox="portfolio">+</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
