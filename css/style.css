@@ -780,7 +780,7 @@ a:focus {
     width: calc(100% - 60px);
     font-size: 20px;
     font-weight: 700;
-    color: #fdbe33;
+    color:white;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -798,13 +798,13 @@ a:focus {
     line-height: 60px;
     font-weight: 100;
     color: #030f27;
-    background: #fdbe33;
+    background:white;
     border-radius: 0;
     transition: .3s;
 }
 
 .service .service-item:hover a.btn {
-    color: #ffffff;
+    color:black;
 }
 
 
