@@ -99,7 +99,6 @@ a:focus {
 .top-bar .logo img {
     max-width: 100%;
     max-height: 60px;
-    height: auto;
 }
 
 .top-bar .top-bar-item {
@@ -161,10 +160,12 @@ a:focus {
     position: relative;
     background: #ffffff;
     transition: .3s;
+    margin-top: 40px;
 }
 
 .nav-bar .container-fluid {
     padding: 0;
+   
 }
 
 .nav-bar.nav-sticky {
@@ -174,11 +175,13 @@ a:focus {
     max-width: 1366px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     z-index: 999;
+   margin-top: 0px;
 }
 
 .nav-bar .navbar {
     height: 100%;
     background: #030f27 !important;
+    
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -592,13 +595,29 @@ a:focus {
 }
 
 
+.my-text-startpage{
+    font-size: 18px;
+    padding-left: 40%;
+}
+
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+
+.text-abcd{
+    font-size: 14px;
+    padding-left: 10%
+    
+}
+
+.text-abcd:hover{
+    color: orange;
+}
 .about {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    margin-top: 50px;
 }
 
 .about .section-header {
@@ -781,7 +800,7 @@ a:focus {
     width: calc(100% - 60px);
     font-size: 20px;
     font-weight: 700;
-    color:white;
+    color: white;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -798,14 +817,14 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     font-weight: 100;
-    color: #030f27;
-    background:white;
+    color: white;
+    background: #030f27;
     border-radius: 0;
     transition: .3s;
 }
 
 .service .service-item:hover a.btn {
-    color:black;
+    color: #ffffff;
 }
 
 
